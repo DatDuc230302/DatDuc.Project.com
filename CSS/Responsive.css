@@ -1,0 +1,98 @@
+/* Repair css and html */
+
+.menu-icon {
+    visibility: hidden;
+    display: none;
+}
+
+
+@media only screen and (max-width: 768px){
+    /* header */
+    .head {
+        height: 100%;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header .list-item {
+        background-color: black;
+        width: 100%;
+        left: 0;
+        top: 72px;
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .open {
+        visibility: visible !important;
+    }
+
+    .header .list-item li {
+        display: block;
+    }
+
+    .header .list-item-social {
+        float: none;
+    }
+
+    .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 72px;
+        height: 100%;
+        font-size: 20px;
+        color: white;
+        float: right;
+        visibility: visible;
+    }
+    /* header end*/
+
+    /* section-1 */
+    #section-1 {
+        height: 600px;
+    }
+
+    #section-1 .background-section-1 img {
+        height: 600px;
+    }
+
+    #section-1 .btn-section-1 {
+        bottom: 100px;
+    }
+
+    /* section-1 end */
+
+    /* music-albums */
+    #music-albums {
+        height: 1200px;
+    }
+    /* list-music */
+    .box-music .list-music {
+        transform: translateX(-20px);
+    }
+    /* list-music end */
+    /* list-albumls */
+    .list-albums .col {
+        margin: 0 50px;
+        display: inline-block;
+    }
+
+    .list-albums .albums-item {
+        
+    }
+
+    /* list-albumls end */
+    /* music-albums end */
+
+    
+
+
+    /* radio */
+    .radio-move-left {
+        transform: translateX(-900px);
+    }
+    /* radio end */
+}

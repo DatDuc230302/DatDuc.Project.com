@@ -1,0 +1,140 @@
+#modal {
+    width: 100%;
+}
+
+/* modal-login */
+.modal-login {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(80, 73, 73, 0.3);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s linear , visibility 0.2s linear;
+    visibility: hidden;
+}
+
+.modal-login .box-login {
+    margin-top: 50px;
+    border-radius: 15px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(29, 25, 25);
+}
+
+.modal-login .box-login .close {
+    width: 100%;
+}
+
+.modal-login .box-login .close button {
+    display: block;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    border: 2px solid #ccc;
+    border-radius: 100px;
+    outline: none;
+    user-select: none;
+}
+
+.modal-login .box-login .close button:hover {
+    border: 2px solid rgb(102, 80, 80);
+    background-color: rgb(102, 80, 80);
+    color: white;
+}
+
+.box-login form {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+}
+
+.box-login form .input-controls {
+    position: relative;
+    width: 100%;
+    padding-right: 50px;
+}
+
+
+.box-login form .input-controls input {
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 10px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: rgba(80, 73, 73, 0.3) ;
+    color: white;
+    user-select: none;
+}
+
+.box-login form .input-controls input:hover {
+    border: 1px solid white;
+}
+
+.box-login form .input-controls input:focus {
+    border: 1px solid white;
+}
+
+.box-login form label {
+    position: absolute;   
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(66, 60, 60,0.5);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.box-login form .btn-login {
+    margin-top: 40px;
+    background-color: rgb(233, 50, 224);
+    padding: 20px 0;
+    border-radius: 10px;
+    width: 100%;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box-login form .btn-login:hover {
+    background-color: rgb(136, 14, 130) ;
+}
+
+.box-login form p {
+    color: #525252;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.box-login form p a {
+    text-decoration: none;
+    color: white;
+}
+
+.box-login form p a:hover {
+    color: rgb(185, 169, 169);
+}
+/* modal-login end */
